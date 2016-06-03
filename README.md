@@ -13,5 +13,9 @@ To use, simply answer the given questions and click the button to submit. Your i
 ### Contact
 [Email the owner](mailto:caleb.stokka@gmail.com)
 
+### History
+Site created by Caleb Stokka
+3 June 2016
+
 ### License
 Copyright (c) 2016 Epicodus
