@@ -1,5 +1,3 @@
-//Back End Logic
-
 //Front End Logic
 $(document).ready(function() {
   $("form").submit(function(event){
@@ -11,7 +9,6 @@ $(document).ready(function() {
     var foodInput = parseInt($("#food").val());
     var score = recInput + budgetInput + reasonInput + foodInput
     var userName = $("#userName").val();
-    debugger;
     $("#nameSpan").text(userName);
     $(".response").show();
     if (passport === "Yes") {
