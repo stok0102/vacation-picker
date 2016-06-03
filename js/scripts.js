@@ -9,8 +9,11 @@ $(document).ready(function() {
     var reasonInput = parseInt($("#reason").val());
     var budgetInput = parseInt($("#budget").val());
     var foodInput = parseInt($("#food").val());
-    var score = recInput + budgetInput + reasonInput +foodInput
+    var score = recInput + budgetInput + reasonInput + foodInput
+    var userName = $("#userName").val();
     debugger;
+    $("#nameSpan").text(userName);
+    $(".response").show();
     if (passport === "Yes") {
       if (score < 1) {
         $("#patagonia").siblings().hide();

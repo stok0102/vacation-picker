@@ -1,4 +1,13 @@
-#hayward, #patagonia, #morocco {
+body {
+  background-image: url("../img/airport.jpg");
+  background-size: contain;
+}
+
+#pageHeader {
+  color: white;
+}
+
+.response {
   display: none;
 }
 
