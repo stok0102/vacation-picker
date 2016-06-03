@@ -15,67 +15,60 @@
       <h3>See your dream destination</h3>
       <form class="form-group">
         <label for="passport">Do you have a passport?</label>
-        <select class="form-control" id="">
-          <option value="">Yes</option>
-          <option value="">No</option>
+        <select class="form-control" id="passport">
+          <option>Yes</option>
+          <option>No</option>
         </select>
         <label for="rec">My ideal vacation is spent:</label>
         <select class="form-control" id="rec">
           <option value="">Select One</option>
-          <option value="">Laying on the beach</option>
-          <option value="">Hitting the club</option>
-          <option value="">Exploring Museums</option>
-          <option value="">Heli-Skiing</option>
+          <option value="0">Laying on the beach</option>
+          <option value="1">Hitting the club</option>
+          <option value="2">Exploring Museums</option>
+          <option value="-2">Heli-Skiing</option>
         </select>
         <label for="reason">I take vacations to:</label>
         <select class="form-control" id="reason">
           <option value="">Select One</option>
-          <option value="">Get new pictures for social media</option>
-          <option value="">Recharge my battered soul</option>
-          <option value="">Keep from murdering my coworkers</option>
-          <option value="">Expand my cultural knowledge</option>
+          <option value="0">Get new pictures for social media</option>
+          <option value="-2">Recharge my battered soul</option>
+          <option value="-1">Keep from murdering my coworkers</option>
+          <option value="2">Expand my cultural knowledge</option>
         </select>
         <label for="budget">I'm willing to spend</label>
         <select class="form-control" id="budget">
           <option value="">Select One</option>
-          <option value="">No more than absolutely necessary</option>
-          <option value="">Every penny I have on a roll of the dice</option>
-          <option value="">More than you make in a year</option>
+          <option value="-1">No more than absolutely necessary</option>
+          <option value="0">Every penny I have on a roll of the dice</option>
+          <option value="1">More than you make in a year</option>
         </select>
-        <label for=""></label>
-        <select class="form-control" id="">
+        <label for="food">I like to eat</label>
+        <select class="form-control" id="food">
           <option value="">Select One</option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-        </select>
-        <label for=""></label>
-        <select class="form-control" id="">
-          <option value="">Select One</option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
+          <option value="0">Cheese curds</option>
+          <option value="-1">Lamb</option>
+          <option value="1">Goat</option>
         </select>
         <button class="btn btn-submit" type="submit" name="button">Find out now</button>
       </form>
       <!-- Answers -->
       <div class="response">
-        <div class="" id="">
+        <div class="" id="patagonia">
           <img src="" alt="" />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..
+            Patagonia ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..
           </p>
         </div>
-        <div class="" id="">
+        <div class="" id="morocco">
           <img src="" alt="" />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni
+            Morocco dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni
           </p>
         </div>
-        <div class="" id="">
-          <img src="" alt="" />
+        <div class="" id="hayward">
+          <img src="img/fish.jpg" alt="Image of people standing in the mouth of a fish" />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             You're going to Hayward, WI sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
       </div>
