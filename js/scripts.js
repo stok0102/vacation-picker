@@ -4,7 +4,6 @@
 $(document).ready(function() {
   $("form").submit(function(event){
     event.preventDefault();
-
     var passport = $("#passport").val();
     var recInput = parseInt($("#rec").val());
     var reasonInput = parseInt($("#reason").val());
@@ -13,24 +12,18 @@ $(document).ready(function() {
     var score = recInput + budgetInput + reasonInput +foodInput
     debugger;
     if (passport === "Yes") {
-      if (score >= 1) {
+      if (score < 1) {
         $("#patagonia").siblings().hide();
-        $("#patagonia").show();
-      }
-
-      else if (score < 1) {
+        $("#patagonia").fadeIn();
+      } else if (score >= 1) {
         $("#morocco").siblings().hide();
-        $("#morocco").show();
-      }
-
-      else {
+        $("#morocco").fadeIn();
+      } else {
         alert("You missed a box");
       }
-    }
-
-    else {
+    } else {
       $("#hayward").siblings().hide();
-      $("#hayward").show();
+      $("#hayward").fadeIn();
     }
   });
 });
