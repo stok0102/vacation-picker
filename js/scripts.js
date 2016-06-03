@@ -5,5 +5,7 @@ $(document).ready(function() {
   $("form").submit(event){
     event.preventDefault();
 
+    var passport = $("#passport").val();
+    debugger;
   });
 });
